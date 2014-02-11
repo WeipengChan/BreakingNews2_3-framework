@@ -31,6 +31,7 @@
 		AB38BA1C186DDA840033AECA /* XHExampleLeftSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA1B186DDA840033AECA /* XHExampleLeftSideDrawerViewController.m */; };
 		AB38BA1F186DDA920033AECA /* XHExampleRightSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA1E186DDA920033AECA /* XHExampleRightSideDrawerViewController.m */; };
 		AB38BA22186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA21186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m */; };
+		F3C1793418A9B78F00794B95 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F3C1793318A9B78F00794B95 /* ReadMe.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		AB38BA1E186DDA920033AECA /* XHExampleRightSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleRightSideDrawerViewController.m; sourceTree = "<group>"; };
 		AB38BA20186DDB260033AECA /* XHExampleCenterSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleCenterSideDrawerViewController.h; sourceTree = "<group>"; };
 		AB38BA21186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleCenterSideDrawerViewController.m; sourceTree = "<group>"; };
+		F3C1793318A9B78F00794B95 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		AB38B9B1186DB4370033AECA = {
 			isa = PBXGroup;
 			children = (
+				F3C1793318A9B78F00794B95 /* ReadMe.rtf */,
 				AB38B9F6186DB4B40033AECA /* Source */,
 				AB38B9C3186DB4370033AECA /* XHDrawerController */,
 				AB38B9E5186DB4380033AECA /* XHDrawerControllerTests */,
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB38B9D9186DB4370033AECA /* Images.xcassets in Resources */,
+				F3C1793418A9B78F00794B95 /* ReadMe.rtf in Resources */,
 				AB38B9C8186DB4370033AECA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
