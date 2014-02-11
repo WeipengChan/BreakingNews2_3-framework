@@ -28,8 +28,10 @@ typedef NS_ENUM(NSInteger, XHDrawerSide){
 @property (nonatomic, strong) UIView *backgroundView;
 @property (nonatomic, assign, getter = isSpringAnimationOn) BOOL springAnimationOn;
 
+#pragma mark - Open/Close methods
 - (void)toggleDrawerSide:(XHDrawerSide)drawerSide animated:(BOOL)animated completion:(void(^)(BOOL finished))completion;
 
+//这两个方法是最重要的，第一个是关闭边边的菜单，第二个是打开边边的菜单
 - (void)closeDrawerAnimated:(BOOL)animated completion:(void(^)(BOOL finished))completion;
 
 - (void)openDrawerSide:(XHDrawerSide)drawerSide animated:(BOOL)animated completion:(void(^)(BOOL finished))completion;

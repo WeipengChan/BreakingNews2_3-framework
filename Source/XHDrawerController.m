@@ -464,7 +464,7 @@ typedef enum ScrollDirection {
         
         if(self.openSide == XHDrawerSideLeft)
         {
-            newContentOffset =  -translation;
+            newContentOffset =  -translation;//这样写的原因是translation是相对于中间view的，其方向相对左边的view来说是相反的。
             
            if (newContentOffset < 0 ||newContentOffset > XHContentContainerViewOriginX) {
             return;
